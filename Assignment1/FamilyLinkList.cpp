@@ -64,7 +64,7 @@ void printBack(node* tail)
 //function to print relationship linked list
 void printRelationship(node* head)
 {
-    cout<<"Relationship Linked List"<<endl;
+    cout<<"Forward Relationship Linked List"<<endl;
     node* temp= head;
 
     //looping through every node
@@ -73,7 +73,21 @@ void printRelationship(node* head)
         cout<<temp->relationship<<"->";
         temp=temp->next;
     }
-    cout<<endl;
+    cout<<endl<<endl;
+}
+
+void printRelationshipBack(node* tail)
+{
+    cout<<"Backward Relationship Linked List"<<endl;
+    node* temp= tail;
+
+    //looping through every node
+    while(temp!=NULL)
+    {
+        cout<<temp->relationship<<"->";
+        temp=temp->prev;
+    }
+    cout<<endl<<endl;
 }
 
 //function to insert a node in front
@@ -109,6 +123,8 @@ int main()
     printBack(tail);
 
     printRelationship(head);
+
+    printRelationshipBack(tail);
     return 0;
 
 }
@@ -123,8 +139,11 @@ int main()
 // Backward Link List
 // name: Rahul age: 20------>name: Meena age: 45------>name: Mahesh age: 50------>name: Urmila age: 70------>name: Dev age: 75------>
 
-// Relationship Linked List
+// Forward Relationship Linked List
 // Grandfather->Grandmother->Father->Mother->Son->
+
+// Backward Relationship Linked List
+// Son->Mother->Father->Grandmother->Grandfather->
 
 
 
