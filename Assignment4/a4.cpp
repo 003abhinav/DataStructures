@@ -116,29 +116,29 @@ TIME COMPLEXITY OF SELECTION SORT
 
 
 
-================================OUTPUT=========================================
+// ================================OUTPUT=========================================
   
-Enter number of elements in array:5
-Enter elements of array:9
-7
-2
-8
-6
-ARRAY before sorting:9 7 2 8 6 
+// Enter number of elements in array:5
+// Enter elements of array:9
+// 7
+// 2
+// 8
+// 6
+// ARRAY before sorting:9 7 2 8 6 
 
-BUBBLE SORT
- . Number of SWAP:7
- . Number of COMPARISON:10
- . [INPLACE SORTING ALGORITHM USED]
- . ARRAY After Sorting Using Bubble Sorting:2 6 7 8 9 
+// BUBBLE SORT
+//  . Number of SWAP:7
+//  . Number of COMPARISON:10
+//  . [INPLACE SORTING ALGORITHM USED]
+//  . ARRAY After Sorting Using Bubble Sorting:2 6 7 8 9 
 
-SELECTION SORT
- . Number of SWAP:3
- . Number of COMPARISON:14
- . [INPLACE SORTING ALGORITHM USED]
- . ARRAY After Sorting Using Selection Sorting:2 6 7 8 9 
+// SELECTION SORT
+//  . Number of SWAP:3
+//  . Number of COMPARISON:14
+//  . [INPLACE SORTING ALGORITHM USED]
+//  . ARRAY After Sorting Using Selection Sorting:2 6 7 8 9 
 
-   =============================================================================
+//    =============================================================================
   
   
   
